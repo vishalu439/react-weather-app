@@ -7,14 +7,22 @@ import Weather from './weather';
 
 
 
+
 function App() {
   
 
     
   return (
     <div className="App">
-    <Weather/>
-       
+      <div className={styles.container}>
+      
+
+      <Weather/>
+
+
+      </div>
+    
+      
 
       </div>
       

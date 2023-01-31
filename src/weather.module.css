@@ -2,13 +2,16 @@
     
 display:flex;
 flex-direction: column;
+flex-wrap: wrap;
 justify-content: space-evenly;
-border:1px solid red;
 height:500px;
-margin-left: 300px;
-margin-right:300px;
+width: 500px;
+margin-left: 400px;
+margin-right:100px;
 align-items: center;
 margin-top:50px;
+background-color: aliceblue;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
 
@@ -18,4 +21,8 @@ margin-top:50px;
     margin-right:50%;
     font: inherit;
     padding: 0.2em 0.5em;
+  }
+  p {
+    margin-bottom: 1.25rem;
+    color: var(--clr-grey-5);
   }
