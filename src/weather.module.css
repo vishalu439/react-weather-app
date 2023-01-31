@@ -1,0 +1,21 @@
+.container{
+    
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+border:1px solid red;
+height:500px;
+margin-left: 300px;
+margin-right:300px;
+align-items: center;
+margin-top:50px;
+
+
+
+}
+.input {
+    margin-left:40%;
+    margin-right:50%;
+    font: inherit;
+    padding: 0.2em 0.5em;
+  }
